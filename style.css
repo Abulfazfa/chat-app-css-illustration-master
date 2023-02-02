@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.left-container{
+    width: 300px;
+    height: 660px;
+    background-color: antiquewhite;
+}
+.app-screen{
+    background-color: lightgray;
+}
+.app-screen .heading{
+    background-color: blueviolet;
+    display: flex;
+}
+.app-screen .heading .user-pp{
+    border-radius: 50%;
+    border: 2px solid azure;
+    width: 40px;
+    background-image: url(./images/avatar.jpg);
+    background-size: contain;
+    margin: 0 5px;
+}
+.app-screen .heading::before{
+    content: "klk";
+    position: relative;
+    right: 150px;
+    font-size: 16px;
+    color: red;
+}
+
+
+
+
+.row-you_write img{
+    width: 30px;
+    height: 30px;
+}
