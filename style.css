@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    
+    background-color: antiquewhite;
 }
 .container{
     display: flex;
@@ -12,36 +12,80 @@ body{
     margin-left: 50px;
 }
 .left-container{
-    width: 300px;
-    height: 660px;
-    background-color: antiquewhite;
+  margin-top: 40px;  
 }
 .app-screen{
+    position: relative;
     background-color: lightgray;
+    border-radius: 20px;
+    border: 0;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 12px;
+    width:  300px;
+    height: 600px;
+}
+.camera{
+    position: absolute;
+    top: -12px;
+    left: 30%;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: white;
+    margin: auto;
 }
 .app-screen .heading{
     background-color: blueviolet;
+    padding: 40px 0 0 0;
+    border-radius: 10px;
+
+
+}
+.app-screen .heading .heading-row{
     display: flex;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+
 }
 .app-screen .heading .user-pp{
     border-radius: 50%;
     border: 2px solid azure;
-    width: 40px;
+    width: 30px;
+    height: 30px;
     background-image: url(./images/avatar.jpg);
     background-size: contain;
-    margin: 0 5px;
+    margin: 3px 8px 0;
 }
-.app-screen .heading::before{
-    content: "klk";
-    position: relative;
-    right: 150px;
+.user-name h3{
     font-size: 16px;
-    color: red;
+}
+.user-username span{
+    font-size: 12px;
+}
+.user-data{
 }
 
 
 
-
+.row{
+    max-width: 60%;
+    background-color: rgb(255, 205, 213);
+    border-radius: 15px;
+    margin: 10px;
+}
+.row-you_write{
+    background-color: white;
+    position: relative;
+    left: 105px;
+}
+.row p{
+    padding: 7px;
+    font-size: 13px;
+    color: lightpink;
+}
 .row-you_write img{
     width: 30px;
     height: 30px;
