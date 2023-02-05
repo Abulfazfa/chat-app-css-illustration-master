@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <link rel="stylesheet" href="style.css">
 
@@ -60,7 +61,7 @@
               Could you send over some pictures of your dog, please?
             </p>
           </div>
-          <div class="row row-you_write">
+          <div class="row row-you_write row-img">
             <img src="./images/dog-image-1.jpg" alt="">
             <img src="./images/dog-image-2.jpg" alt="">
             <img src="./images/dog-image-3.jpg" alt="">
@@ -80,20 +81,23 @@
               She looks so happy! The time we discussed works. How long shall I take her out for?
             </p>
           </div>
-          <div class="row">
-            <span>30 minute walk</span> <span>$29</span>
+          <div class="row row-price">
+            <span class="text">30 minute walk</span> <span class="price price1">$29</span>
           </div>
-          <div class="row">
-            <span>1 hour walk</span> <span>$49</span>
+          <div class="row row-price">
+            <span class="text">1 hour walk</span> <span class="price price2">$49</span>
+          </div>
+          <div class="row row-load">
+            <span id="first">.</span> <span id="second">.</span> <span id="third"> .</span>
           </div>
           <div class="row text-area">
-            <span>Type a message…</span>
+            <span >Type a message…</span> <i class="fa-solid fa-circle-chevron-right"></i>
           </div>
         </div>
       </div>
     </div>
     <div class="right-container">
-      <div class="row">
+      
         <div class="text-heading">
           <h1>Simple booking</h1>
         </div>
@@ -104,13 +108,13 @@
             your walker and book again all through the chat.
           </p>
         </div>
-      </div>
+      
     </div>
   </div>
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Abulfaz</a>.
-  </div>
+  </div> -->
 </body>
 
 </html>
